@@ -86,7 +86,7 @@ const handleSubmit = async (e) => {
     // messageDiv.innerHTML = "..."
     loader(messageDiv)
 
-    const response = await fetch('http://localhost:7050', {
+    const response = await fetch('https://mycodex-qn51.onrender.com', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
